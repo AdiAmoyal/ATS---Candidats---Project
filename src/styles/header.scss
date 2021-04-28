@@ -1,0 +1,29 @@
+.header {
+  height: 80px;
+  background-color: lightblue;
+  box-shadow: 0 20px 30px 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5rem;
+
+  &__title {
+    font-size: 2.7rem;
+    color: steelblue;
+  }
+  &__avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__create-btn {
+    margin-right: 2rem;
+  }
+}
