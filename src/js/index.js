@@ -9,32 +9,32 @@ const newApplicationForm = `
         <p class="form__create-application--headline">Create Appliction</p>
         <div class="row">
             <label>Company name</label>
-            <input name="company_name" type="text" />
+            <input class="form__create-application--input" name="company_name" type="text" />
         </div>
         <div class="row">
             <label>Job title</label>
-            <input name="job_title" type="text" />
+            <input class="form__create-application--input" name="job_title" type="text" />
         </div>
         <div class="row">
             <label>Creation date</label>
         </div>
         <div class="row">
             <label>Status</label>
-            <select name="status">
-            <option value="">--Please choose an option--</option>
+            <select class="form__create-application--select" name="status">
+            <option value="">Please choose an option</option>
             <option value="Availble">Availble</option>
             <option value="Disable">Disable</option>
             </select>
         </div>
         <div class="row">
             <label>Phase</label>
-            <select name="phase">
-            <option value="">--Please choose an option--</option>
+            <select class="form__create-application--select" name="phase">
+            <option value="">Please choose an option</option>
             <option value="HR">HR</option>
             <option value="Technical">Technical</option>
             </select>
         </div>
-        <button type="submit" id="btnSubmit">SUBMIT</button>
+        <button class="btn btn__submit" type="submit" id="btnSubmit">SUBMIT</button>
     </form>
 `;
 

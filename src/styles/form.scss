@@ -1,0 +1,33 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    &__create-application {
+        min-width: 250px;
+        min-height: 300px;
+        color: rgb(97, 155, 202);
+
+        &--headline {
+            font-size: 1.7rem;
+            width: 100%;
+            border-bottom: 1px solid rgb(50, 100, 141);
+        }
+
+        &--input {
+            width: 150px;
+        }
+
+        &--select {
+            width: 175px;
+        }
+    }
+}
+
+.btn__submit {
+    font-size: 1rem;
+    padding: 7px 12px;
+    background-color: rgb(50, 100, 141);
+    align-self: flex-end;
+}
